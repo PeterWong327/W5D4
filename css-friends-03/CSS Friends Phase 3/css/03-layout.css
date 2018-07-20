@@ -1,0 +1,28 @@
+/* PHASE 3: Layout */
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: inherit;
+  width: 75%;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+.content-sidebar {
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid lightgray;
+  flex-grow: 1;
+}
+
+.content-sidebar {
+  content: ":)";
+}
+
+.content-main {
+  min-width: 200px;
+  border: 1px solid lightgray; 
+  min-height: 200px;
+  flex-grow: 2;
+}
